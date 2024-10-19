@@ -15,7 +15,7 @@ const signUp = async (req, res) => {
 
         const token = signToken({
             id: newUser._id,
-            name: newUser.Name,
+            name: newUser.name,
 
             email
         })
